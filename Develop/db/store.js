@@ -18,10 +18,9 @@ class Store {
     }
 
     addNote() {
-        this
-        .getNotes()
-        .then((data) => {
-
+        
+        return this.getNotes().then((data) => {
+            
         });
     }
 
