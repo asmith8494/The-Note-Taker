@@ -1,15 +1,24 @@
 {
-  "name": "note-taker",
+  "name": "the-note-taker",
   "version": "1.0.0",
-  "description": "",
-  "main": "Develop/server.js",
+  "description": "## Description",
+  "main": "server.js",
   "scripts": {
-    "start": "node Develop/server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmith8494/The-Note-Taker.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asmith8494/The-Note-Taker/issues"
+  },
+  "homepage": "https://github.com/asmith8494/The-Note-Taker#readme",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "uuid": "^8.2.0"
   }
 }
